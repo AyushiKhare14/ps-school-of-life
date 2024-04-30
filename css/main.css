@@ -1,0 +1,157 @@
+/* the body */
+
+body {
+    background-image: url('../images/webpage-bg-img.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+  
+
+.page-container {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(248, 251, 253); */
+    background-color: rgba(0,0,0,.7);
+    /* background-color: transparent; */
+    width: 80vw;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#brand-name {
+    font-style: normal;
+    color: rgb(227, 235, 235);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 0;
+    
+
+}
+
+#brand-name h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    margin-top: 5vh;
+    font-size:400%;
+    color: rgb(18, 18, 18);
+}
+
+#brand-name p {
+    font-family: "Pacifico", cursive;
+    font-weight: 0;
+    margin-top: 10px;
+    font-size:100%;
+    color: rgb(18, 18, 18);
+
+}
+
+ .carousel-item {
+    /* height: 300px; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      
+      top: 0;
+      left: 0;
+      /* min-height: 300px; */
+  }
+
+  #my-slide {
+    
+    height: 200px;
+    background-image: linear-gradient(to right,  rgb(86, 118, 141), rgb(217, 224, 224));
+    /* background-image: linear-gradient(to right,rgb(195, 159, 86), rgb(239, 237, 225) ); 
+    rgb(154, 39, 39),rgb(222, 226, 224)*/
+  }
+
+  #my-slide h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    font-size:200%;
+    text-align: right;
+}
+
+.navbar-brand {
+    padding-left: 5px;
+}
+
+.welcome {
+    margin-top: 0;
+    height: 32px;
+    /* background-image: linear-gradient(to right, rgb(5, 6, 6),rgb(190, 192, 191)); */
+    color: aliceblue;
+
+}
+
+.welcome-msg {
+    color: rgb(206, 226, 243);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-us {
+    margin: 1%;
+    height: 32px;
+    background-image: linear-gradient(to right, rgb(5, 6, 6),rgb(190, 192, 191));
+}
+
+.list-group-item {
+    background-color: rgba(239, 190, 219, 0.7);
+}
+
+.img-fluid {
+    margin-top: 1%;
+}
+
+.about-us h3 {
+    padding-left: 1%;
+    color: aliceblue;
+}
+
+
+#home-page-quote {
+    display: block;
+    font-size: small;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+/* .card-img-top {
+    height: 25vh;
+}
+
+.card-container {
+    margin-top: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 5px groove rgb(245, 242, 242);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px 5px grey;
+} */
+
+.footer-flex {
+    color: aliceblue;
+    font-size: x-small;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2vh;
+    
+}
+
+.footer-flex > div >p {
+    text-align: center;
+}
