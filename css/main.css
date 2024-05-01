@@ -64,7 +64,7 @@ body {
   #my-slide {
     
     height: 200px;
-    background-image: linear-gradient(to right,  rgb(86, 118, 141), rgb(217, 224, 224));
+    background-image: linear-gradient(to right,  rgb(93, 117, 135), rgb(234, 236, 237));
     /* background-image: linear-gradient(to right,rgb(195, 159, 86), rgb(239, 237, 225) ); 
     rgb(154, 39, 39),rgb(222, 226, 224)*/
   }
@@ -168,4 +168,9 @@ body {
     div.hide {
       display: none;
     }
+  }
+
+  .checkout-img-size {
+    width: 100px;
+    height: 80px;
   }
