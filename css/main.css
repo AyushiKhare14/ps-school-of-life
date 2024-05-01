@@ -154,3 +154,18 @@ body {
 .footer-flex > div >p {
     text-align: center;
 }
+
+.login {
+    display: flex;
+    justify-content:space-around;
+}
+
+.hide {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    div.hide {
+      display: none;
+    }
+  }

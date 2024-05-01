@@ -27,7 +27,7 @@
                 <!---------------Navigation Bar Starts------------->
     
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#"> Life 2.0</a>
+                    <a class="navbar-brand" href="welcome.html"><img src="./images/logo.png" alt="logo image"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -70,12 +70,13 @@
     
             <main>
                 <div class="m-5 border border-secondary border-2 rounded p-3" >
-                <form action="enroll-success.html">
+                <form action="enroll-success.html" class="m-5">
                     <fieldset>
                         <legend class="text-light">User Registration</legend>
                     
                     <label class="form-label text-light " for="fist-name"><sup class="text-danger">*</sup>First Name</label>
                     <input class="form-control" type="text" id="fist-name" name="fname" required minlength="2" maxlength="20">
+                    <br>
                    
 
                     <label class="form-label text-light" for="last-name"><sup class="text-danger">*</sup>Last Name</label>
@@ -107,14 +108,14 @@
 
                     <label class="form-label text-light"><sup class="text-danger">*</sup>How did you hear about us?</label><br>
                     <input type="radio" id="sm" name="how" value="social-media" required>
-                    <label class=" form-label text-light" for="sm">Social Media</label>
+                    <label class=" form-label text-secondary" for="sm">Social Media</label>
 
                     <input type="radio" id="gs" name="how" value="google-search" required>
-                    <label class="form-label text-light" for="gs">Google Search</label>
+                    <label class="form-label text-secondary" for="gs">Google Search</label>
 
                     <input type="radio" id="ff" name="how" value="from-a-friend" required>
-                    <label class="form-label text-light" for="ff">From a friend</label>
-                    <br>
+                    <label class="form-label text-info" for="ff">From a friend</label>
+                    <br><br>
 
                     <label class="form-label text-light" for="pass"><sup class="text-danger">*</sup>Create a password</label>
                     <input class="form-control" type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
