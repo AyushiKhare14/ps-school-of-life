@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,140 +19,149 @@
 
 <body>
 
-    <body>
 
-        <div class="page-container">
-    
-            <header>
-    
-                <!---------------Navigation Bar Starts------------->
-    
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="welcome.html"><img src="./images/logo.png" alt="logo image"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="welcome.html">Home<span class="sr-only"></span></a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link" href="about-us.html">About Us</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link" href="classrooms.html">Classrooms</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact-us.html">Contact Us</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link active" href="enroll.html">Enroll/Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>
-    
-                        </ul>
-                    </div>
-                </nav>
-                
-                <!---------------Navigation Bar Ends------------->
-    
-            </header>
-    
-            <!---------------Main content starts------------->
-    
-            <main class="row d-flex justify-content-center">
-                <div class="col-sm-6 col-lg-8 m-4 border border-secondary border-2 rounded p-1" >
+
+    <div class="page-container">
+
+        <header>
+
+            <!---------------Navigation Bar Starts------------->
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="welcome.html"><img src="./images/logo.png" alt="logo image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="welcome.html">Home<span class="sr-only"></span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="classrooms.html">Classrooms</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="enroll.html">Enroll/Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <!---------------Navigation Bar Ends------------->
+
+        </header>
+
+        <!---------------Main content starts------------->
+
+        <main class="row d-flex justify-content-center">
+            <div class="col-sm-6 col-lg-8 m-4 border border-secondary border-2 rounded p-1">
                 <form action="enroll-success.html" class="m-5">
                     <fieldset>
                         <legend class="text-light">User Registration</legend>
-                    
-                    <label class="form-label text-light " for="fist-name"><sup class="text-danger">*</sup>First Name</label>
-                    <input class="form-control" type="text" id="fist-name" name="fname" required minlength="2" maxlength="20">
-                    <br>
-                   
 
-                    <label class="form-label text-light" for="last-name"><sup class="text-danger">*</sup>Last Name</label>
-                    <input class="form-control" type="text" id="last-name" name="lname" required minlength="2" maxlength="20">
-                    <br>
-
-                    <label class="form-label text-light" for="email"><sup class="text-danger">*</sup>Email Id</label>
-                    <input class="form-control" type="email" id="email" name="email" required>
-                    <br>
-
-                    <label class="form-label text-light" for="gender"><sup class="text-danger">*</sup>Gender</label>
-                    <select class="form-control" id="gender" required>
-                        <option Value>--SELECT--</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <br>
-
-                    <label class="form-label text-light" for="agegroup"><sup class="text-danger">*</sup>Select your age group</label>
-                    <select class="form-control" id="agegroup" required>
-                        <option value>--SELECT--</option>
-                        <option value="kid">3-12</option>
-                        <option value="newadult">13-25</option>
-                        <option value="middleagegroup">26-40</option>
-                        <option value="oldandwise">40-99</option>
-                    </select>
-                    <br>
-
-                    <label class="form-label text-light"><sup class="text-danger">*</sup>How did you hear about us?</label><br>
-                    <input type="radio" id="sm" name="how" value="social-media" required>
-                    <label class=" form-label text-light fw-lighter" for="sm">Social Media</label>
-
-                    <input type="radio" id="gs" name="how" value="google-search" required>
-                    <label class="form-label text-light fw-lighter" for="gs">Google Search</label>
-
-                    <input type="radio" id="ff" name="how" value="from-a-friend" required>
-                    <label class="form-label text-light fw-lighter" for="ff">From a friend</label>
-                    <br><br>
-
-                    <label class="form-label text-light" for="pass"><sup class="text-danger">*</sup>Create a password</label>
-                    <input class="form-control" type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <div id="passwordHelpBlock" class="form-text text-secondary">
-                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-                      </div>
-                    <br>
+                        <label class="form-label text-light " for="fist-name"><sup class="text-danger">*</sup>First
+                            Name</label>
+                        <input class="form-control" type="text" id="fist-name" name="fname" required minlength="2"
+                            maxlength="20">
+                        <br>
 
 
-                    <label class="form-label text-light" for="repass"><sup class="text-danger">*</sup>Re-enter password</label>
-                    <input  class="form-control" type="password" name="pass" id="repass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <br>
+                        <label class="form-label text-light" for="last-name"><sup class="text-danger">*</sup>Last
+                            Name</label>
+                        <input class="form-control" type="text" id="last-name" name="lname" required minlength="2"
+                            maxlength="20">
+                        <br>
 
-                    <button class="btn btn-primary btn-lg">Submit Form</button>
+                        <label class="form-label text-light" for="email"><sup class="text-danger">*</sup>Email
+                            Id</label>
+                        <input class="form-control" type="email" id="email" name="email" required>
+                        <br>
 
-                </fieldset>
+                        <label class="form-label text-light" for="gender"><sup class="text-danger">*</sup>Gender</label>
+                        <select class="form-control" id="gender" required>
+                            <option Value>--SELECT--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br>
+
+                        <label class="form-label text-light" for="agegroup"><sup class="text-danger">*</sup>Select your
+                            age group</label>
+                        <select class="form-control" id="agegroup" required>
+                            <option value>--SELECT--</option>
+                            <option value="kid">3-12</option>
+                            <option value="newadult">13-25</option>
+                            <option value="middleagegroup">26-40</option>
+                            <option value="oldandwise">40-99</option>
+                        </select>
+                        <br>
+
+                        <label class="form-label text-light"><sup class="text-danger">*</sup>How did you hear about
+                            us?</label><br>
+                        <input type="radio" id="sm" name="how" value="social-media" required>
+                        <label class=" form-label text-light fw-lighter" for="sm">Social Media</label>
+
+                        <input type="radio" id="gs" name="how" value="google-search" required>
+                        <label class="form-label text-light fw-lighter" for="gs">Google Search</label>
+
+                        <input type="radio" id="ff" name="how" value="from-a-friend" required>
+                        <label class="form-label text-light fw-lighter" for="ff">From a friend</label>
+                        <br><br>
+
+                        <label class="form-label text-light" for="pass"><sup class="text-danger">*</sup>Create a
+                            password</label>
+                        <input class="form-control" type="password" name="pass" id="pass"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                        <div id="passwordHelpBlock" class="form-text text-secondary">
+                            Your password must be 8-20 characters long, contain letters and numbers, and must not
+                            contain spaces, special characters, or emoji.
+                        </div>
+                        <br>
+
+
+                        <label class="form-label text-light" for="repass"><sup class="text-danger">*</sup>Re-enter
+                            password</label>
+                        <input class="form-control" type="password" name="pass" id="repass"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                        <br>
+
+                        <button class="btn btn-primary btn-lg">Submit Form</button>
+
+                    </fieldset>
                 </form>
             </div>
 
-            </main>
+        </main>
 
-            <!---------------Main content ends------------->
-    
-    
-    
-            <footer>
-                <div class="text-center bg-dark text-white fst-italic mt-4">
-                    <small>Site designed and created by: Ayushi Khare&copy;PluralSight</small>
-                </div>
-            </footer>
-    
-        </div>
-    
-    </body>
-    
-    </html>
-    
+        <!---------------Main content ends------------->
+
+
+
+        <footer>
+            <div class="text-center bg-dark text-white fst-italic mt-4">
+                <small>Site designed and created by: Ayushi Khare&copy;PluralSight</small>
+            </div>
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
