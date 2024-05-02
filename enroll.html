@@ -68,8 +68,8 @@
     
             <!---------------Main content starts------------->
     
-            <main>
-                <div class="m-5 border border-secondary border-2 rounded p-3" >
+            <main class="row d-flex justify-content-center">
+                <div class="col-sm-6 col-lg-8 m-4 border border-secondary border-2 rounded p-1" >
                 <form action="enroll-success.html" class="m-5">
                     <fieldset>
                         <legend class="text-light">User Registration</legend>
@@ -89,7 +89,7 @@
 
                     <label class="form-label text-light" for="gender"><sup class="text-danger">*</sup>Gender</label>
                     <select class="form-control" id="gender" required>
-                        <option Value>-----</option>
+                        <option Value>--SELECT--</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="other">Other</option>
@@ -98,7 +98,7 @@
 
                     <label class="form-label text-light" for="agegroup"><sup class="text-danger">*</sup>Select your age group</label>
                     <select class="form-control" id="agegroup" required>
-                        <option value>-----</option>
+                        <option value>--SELECT--</option>
                         <option value="kid">3-12</option>
                         <option value="newadult">13-25</option>
                         <option value="middleagegroup">26-40</option>
@@ -108,13 +108,13 @@
 
                     <label class="form-label text-light"><sup class="text-danger">*</sup>How did you hear about us?</label><br>
                     <input type="radio" id="sm" name="how" value="social-media" required>
-                    <label class=" form-label text-secondary" for="sm">Social Media</label>
+                    <label class=" form-label text-light fw-lighter" for="sm">Social Media</label>
 
                     <input type="radio" id="gs" name="how" value="google-search" required>
-                    <label class="form-label text-secondary" for="gs">Google Search</label>
+                    <label class="form-label text-light fw-lighter" for="gs">Google Search</label>
 
                     <input type="radio" id="ff" name="how" value="from-a-friend" required>
-                    <label class="form-label text-info" for="ff">From a friend</label>
+                    <label class="form-label text-light fw-lighter" for="ff">From a friend</label>
                     <br><br>
 
                     <label class="form-label text-light" for="pass"><sup class="text-danger">*</sup>Create a password</label>

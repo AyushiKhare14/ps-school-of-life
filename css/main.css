@@ -171,3 +171,24 @@ body {
     width: 100px;
     height: 80px;
   }
+
+
+  
+/* 
+  @media screen and (max-width: 586px) {
+    div.enroll-form-margin {
+      margin: 10px;
+    }
+  } */
+
+ a {
+    height: 90px;
+    display: block;
+    border: 2px solid;
+  }
+
+  #fb {
+    left: 100px;
+    width: 110px;
+    background: url('../images/contact-us-sprite.webp') 0 0;
+  }
