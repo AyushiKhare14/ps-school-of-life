@@ -17,6 +17,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
+    <style>
+        #img-height {
+            height: 30vh;
+        }
+    </style>
+
     <title>Welcome</title>
 
 </head>
@@ -65,7 +71,7 @@
                     </ul>
                 </div>
             </nav>
-            
+
             <!---------------Navigation Bar Ends------------->
 
         </header>
@@ -73,24 +79,68 @@
         <!---------------Main content starts------------->
 
 
-            <!------------------- starts-------------------->
+        <!------------------- starts-------------------->
 
-            <h1 class="text-light text-center mt-2">Work in progress...</h1>
+        <!-- <h1 class="text-light text-center mt-2">Work in progress...</h1>
 
             <div class="progress m-5">
                 <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div> -->
+
+
+        <div class="row m-5">
+            <div class=" col-sm-8 col-lg-6">
+
+                <form action="msg-sent.html">
+
+                    <label class="form-label text-light " for="name"><sup class="text-danger">*</sup>Full Name</label>
+                    <input class="form-control" type="text" id="name" name="name" required minlength="2" maxlength="50">
+                    <br>
+
+                    <label class="form-label text-light" for="email"><sup class="text-danger">*</sup>Email Id</label>
+                    <input class="form-control" type="email" id="email" name="email" required>
+                    <br>
+
+                    <label class="form-label text-light " for="message"><sup class="text-danger">*</sup>Your
+                        message</label>
+                    <textarea class="form-control" rows="6" cols="10" id="message" name="msg" required minlength="20"
+                        maxlength="200"></textarea>
+                    <br>
+
+                    <div class="d-flex justify-content-center p-3">
+                        <button class="btn btn-primary">Send message</button>
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-sm-8 col-lg-6">
+
+
+                <div class="d-flex justify-content-center col-12" id="img-height">
+                    <img src="./images/join-us.png" alt="Join us">
+                </div>
+
+                <div>
+                    <p class="d-flex justify-content-center text-white fs-5 fw-light">Join our social media channels to
+                        stay tuned!</p>
+                </div>
+
+                <div class="d-flex justify-content-center" id="contact-us">
+
+                    <a href="www.facebook.com" id="fb"></a>
+                    <a href="www.youtube.com" id="yt"></a>
+                    <a href="www.twitter.com" id="tw"></a>
+                    <a href="www.linkedin.com" id="lin"></a>
+                    <a href="www.pinterest.com" id="pin"></a>
+
+                </div>
             </div>
 
-            <!-- <ul>
-                <li id="fb" ><a href=""></a></li>
-                <li id="lin"><a href=""></a></li>
-                <li id="pin"><a href=""></a></li>
-                <li id="yt"><a href=""></a></li>
-                <li id="tw"><a href=""></a></li>
-            </ul> -->
+        </div>
 
 
-            <!------------------- ends-------------------->
+        <!------------------- ends-------------------->
 
         </main>
 
