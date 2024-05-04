@@ -1,7 +1,7 @@
 /* the body */
 
 body {
-    background-image: url('../images/webpage-bg-img.jpeg');
+    background-image: url('../images/webpage-bg-img.webp');
     background-attachment: fixed;
     background-size: cover;
 
@@ -9,9 +9,10 @@ body {
 
 
 .page-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vh;
     background-color: rgba(0, 0, 0, .75);
     width: 80vw;
     height: 100%;
@@ -20,7 +21,6 @@ body {
 
 #brand-name {
     font-style: normal;
-    color: rgb(227, 235, 235);
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 0;
@@ -33,17 +33,17 @@ body {
     font-weight: 200;
     margin-top: 5vh;
     font-size: 400%;
-    color: rgb(18, 18, 18);
+    
+    color: rgb(244, 238, 238);
 }
 
 #brand-name p {
-    font-family: "Pacifico", cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
     font-size: 100%;
-    color: rgb(18, 18, 18);
+    color: rgb(244, 238, 238);
 
 }
-
 
 /* ------------------- */
 
@@ -62,16 +62,16 @@ body {
 .my-slide {
 
     height: 200px;
-    background-image: linear-gradient(to right, rgb(93, 117, 135), rgb(234, 236, 237));
+    
+    padding: 1%;
+    background-image: linear-gradient(to right, rgb(87, 13, 9), rgb(247, 35, 20));
+    /* rgb(93, 117, 135), rgb(234, 236, 237) */
 }
 
 .my-slide h2 {
-    font-family: "Pacifico", cursive;
-    font-weight: 200;
-    padding-top: 5rem;
-    padding-right: 5rem;
-    font-size: 200%;
-    text-align: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    padding: 5px;
 }
 
 
@@ -124,7 +124,7 @@ body {
 
 .footer-flex {
     color: aliceblue;
-    font-size: x-small;
+    
     font-style: italic;
     justify-content: center;
     display: flex;
@@ -164,7 +164,7 @@ body {
     width: 55px;
     background-image: url('../images/contact-us-sprite.webp');
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -189,3 +189,25 @@ body {
 #pin {
     background-position: -230px -218px;
 }
+
+#foot-note li:first-of-type{
+    list-style: none;
+    font-size: small;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+}
+
+
+#foot-note li{
+    list-style: none;
+    font-size: x-small;
+    color: rgb(245, 237, 226);
+    text-align: center;
+    
+    
+    
+}
+
+
