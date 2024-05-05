@@ -77,7 +77,7 @@
         <div class="row m-5">
             <div class=" col-sm-8 col-lg-6">
 
-                <form action="contact-us.html">
+                <form action="#">
 
                     <label class="form-label text-light " for="name"><sup class="text-danger">*</sup>Full Name</label>
                     <input class="form-control" type="text" id="name" name="name" required minlength="2" maxlength="50">
@@ -94,10 +94,28 @@
                     <br>
 
                     <div class="d-flex justify-content-center p-3">
-                        <button class="btn btn-primary">Send message</button>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#messagesent">Send message</button>
                     </div>
 
                 </form>
+
+                <div class="modal fade" id="messagesent" tabindex="-1" aria-labelledby="messagesentLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="messagesentLabel">Message sent!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          We will reach out to you soon.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
             </div>
             <div class="col-sm-8 col-lg-6">
