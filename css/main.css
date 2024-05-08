@@ -19,31 +19,47 @@ body {
     border-radius: 10px;
 }
 
-#brand-name {
-    font-style: normal;
+.brand-name {
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 0;
+    color: rgb(244, 238, 238);
 
 
 }
 
-#brand-name h1 {
+.brand-name h1 {
     font-family: "Pacifico", cursive;
     font-weight: 200;
     margin-top: 5vh;
     font-size: 400%;
     
-    color: rgb(244, 238, 238);
+    
 }
 
-#brand-name p {
+.brand-name p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
-    font-size: 100%;
-    color: rgb(244, 238, 238);
-
+    font-size: 100%;  
 }
+
+
+@media (min-width: 800px) {
+    div.mini_img {
+        display: none;
+    }
+    
+}
+
+.mob-head-img img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
 
 /* ------------------- */
 
@@ -147,7 +163,25 @@ body {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media (min-width: 800px) {
+    div.login-page-quote {
+        display: none;
+        
+    }
+    
+}
+
+.login-page-quote p{
+    color:rgb(234, 179, 179);
+    font-size:medium;
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+}
+
+
+
+@media screen and (max-width: 800px) {
     div.hide {
         display: none;
     }
